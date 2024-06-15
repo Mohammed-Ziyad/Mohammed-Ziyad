@@ -41,10 +41,9 @@ createApp(App)
   .component("font-awesome-icon", FontAwesomeIcon)
   .mount("#app");
 
-  import "./assets/css/animate.css";
-  import WOW from "./assets/js/wow.min.js";
-  
-  //  Wow.js
-  const wow = new WOW();
-  wow.init();
-  
+import "./assets/css/animate.css";
+import WOW from "./assets/js/wow.min.js";
+
+//  Wow.js
+const wow = new WOW();
+wow.init();

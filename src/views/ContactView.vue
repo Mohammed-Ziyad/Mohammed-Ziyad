@@ -1,4 +1,4 @@
-  <template>
+<template>
   <div class="home">
     <div class="carsour">
       <div>

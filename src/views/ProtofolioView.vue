@@ -4,7 +4,17 @@
     <h2 class="pt-3">My Portfolio</h2>
     <div class="container">
       <div class="card">
-        <img class="img-fluid wow jackInTheBox" jackInTheBox src="images/fund.png" alt="" style="visibility: visible; animation-duration: 3s; animation-name: jackInTheBox;"  />
+        <img
+          class="img-fluid wow jackInTheBox"
+          jackInTheBox
+          src="images/fund.png"
+          alt=""
+          style="
+            visibility: visible;
+            animation-duration: 3s;
+            animation-name: jackInTheBox;
+          "
+        />
         <div class="card-des">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
@@ -90,8 +100,8 @@ export default {
 };
 </script>
 <style scoped>
-img{
-  transition: all .5s ease-in-out 0s;
+img {
+  transition: all 0.5s ease-in-out 0s;
   vertical-align: middle;
 }
 </style>

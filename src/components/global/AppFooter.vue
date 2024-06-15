@@ -57,7 +57,7 @@ footer {
   padding-top: 30px;
   background-color: hsl(0, 0%, 20%);
   font-family: "Open Sans", sans-serif;
-  margin-top:3rem ;
+  margin-top: 3rem;
 }
 
 footer h3 {

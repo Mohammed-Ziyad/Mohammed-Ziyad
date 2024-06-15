@@ -77,11 +77,11 @@ export default {
       ],
     };
   },
-  methods:{
+  methods: {
     navigateToLink(link) {
-      window.open(link, '_blank');
-    }
-  }
+      window.open(link, "_blank");
+    },
+  },
 };
 </script>
 <style scoped lang="scss">

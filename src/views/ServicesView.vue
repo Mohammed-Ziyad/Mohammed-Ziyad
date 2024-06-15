@@ -1,5 +1,5 @@
 <template>
-  <section class="Myservices pt-5 " id="services">
+  <section class="Myservices pt-5" id="services">
     <h2 class="wow bounceInDown py-3">My Services</h2>
     <div class="container">
       <div class="card wow bounceInUp">

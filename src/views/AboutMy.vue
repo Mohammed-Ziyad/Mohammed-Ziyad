@@ -70,11 +70,7 @@
             <div class="card-side wow rollIn">
               <div class="card-side-inner">
                 <div class="card-side-front">
-                  <img
-              class=""
-              src="images/img-skills/vue.webp"
-              alt=""
-            />
+                  <img class="" src="images/img-skills/vue.webp" alt="" />
                 </div>
                 <div class="card-side-back">
                   <p>Vue js</p>
@@ -85,11 +81,7 @@
             <div class="card-side wow rollIn">
               <div class="card-side-inner">
                 <div class="card-side-front">
-                  <img
-              class=""
-              src="images/img-skills/js.webp"
-              alt="jh"
-            />
+                  <img class="" src="images/img-skills/js.webp" alt="jh" />
                 </div>
                 <div class="card-side-back">
                   <p>JavaScript</p>
@@ -101,10 +93,10 @@
               <div class="card-side-inner">
                 <div class="card-side-front">
                   <img
-              class=""
-              src="images/img-skills/typscript.webp"
-              alt="jh"
-            />
+                    class=""
+                    src="images/img-skills/typscript.webp"
+                    alt="jh"
+                  />
                 </div>
                 <div class="card-side-back">
                   <p>TypeScript</p>
@@ -112,97 +104,75 @@
               </div>
             </div>
 
-           
             <!-- CSS  -->
             <div class="card-side wow rollIn">
               <div class="card-side-inner">
                 <div class="card-side-front">
-                  <img
-              class=""
-              src="images/img-skills/css.png"
-              alt="jh"
-            />
+                  <img class="" src="images/img-skills/css.png" alt="jh" />
                 </div>
                 <div class="card-side-back">
                   <p>CSS</p>
                 </div>
               </div>
             </div>
-           
+
             <!-- HTML -->
             <div class="card-side wow rollIn">
               <div class="card-side-inner">
                 <div class="card-side-front">
-                  <img
-              class=""
-              src="images/img-skills/html5.webp"
-              alt="jh"
-            />
+                  <img class="" src="images/img-skills/html5.webp" alt="jh" />
                 </div>
                 <div class="card-side-back">
                   <p>HTML</p>
                 </div>
               </div>
             </div>
-           
+
             <!-- bootstrap -->
             <div class="card-side wow rollIn">
               <div class="card-side-inner">
                 <div class="card-side-front">
                   <img
-              class=""
-              src="images/img-skills/bootstrap-logo.webp"
-              alt="jh"
-            />
+                    class=""
+                    src="images/img-skills/bootstrap-logo.webp"
+                    alt="jh"
+                  />
                 </div>
                 <div class="card-side-back">
                   <p>Bootstrap</p>
                 </div>
               </div>
             </div>
-            
-           
+
             <!-- Taiwilnd -->
             <div class="card-side wow rollIn">
               <div class="card-side-inner">
                 <div class="card-side-front">
-                  <img
-              class=""
-              src="images/img-skills/tw.webp"
-              alt="jh"
-            />
+                  <img class="" src="images/img-skills/tw.webp" alt="jh" />
                 </div>
                 <div class="card-side-back">
                   <p>Taiwilnd</p>
                 </div>
               </div>
             </div>
-           
+
             <!-- Github  -->
             <div class="card-side wow rollIn">
               <div class="card-side-inner">
                 <div class="card-side-front">
-                  <img
-              class=""
-              src="images/img-skills/github1.jpeg"
-              alt="jh"
-            />
+                  <img class="" src="images/img-skills/github1.jpeg" alt="jh" />
                 </div>
                 <div class="card-side-back">
                   <p>Github</p>
                 </div>
               </div>
             </div>
-           
+
             <!-- Git -->
             <div class="card-side wow rollIn">
               <div class="card-side-inner">
                 <div class="card-side-front">
-                  <img
-              class=""
-              src="images/img-skills/git2.webp"
-              alt="jh"
-            />
+                  <img class="" src="images/img-skills/git2.webp" alt="jh" />
                 </div>
                 <div class="card-side-back">
                   <p>Git</p>
@@ -212,23 +182,20 @@
             <!-- <img class=" " src="images/ang3.png" alt=""> -->
           </div>
         </div>
-       <OurGallery />
+        <OurGallery />
       </div>
     </div>
   </div>
 </template>
 <script>
-import OurGallery from "./OurGallery.vue"
+import OurGallery from "./OurGallery.vue";
 export default {
-  components:{
+  components: {
     OurGallery,
-
-
-  }
-}
+  },
+};
 </script>
 <style scoped>
-
 .skills {
   /* display: flex; */
   min-height: 80vh;
@@ -248,7 +215,7 @@ export default {
   margin: 30px;
 }
 
-.skills .skills-img{
+.skills .skills-img {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -291,7 +258,6 @@ export default {
 .aboutMy .des-home {
 }
 
-
 .card-side-inner {
   width: 100%;
   height: 100%;
@@ -323,7 +289,6 @@ export default {
   /* border-radius: 10px; */
   justify-content: center;
   /* font-size: 20px; */
-  
 }
 
 .card-side-back {

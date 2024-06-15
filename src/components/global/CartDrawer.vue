@@ -18,8 +18,8 @@ export default {
   }),
   mounted() {
     this.Emitter.on("openCart", () => {
-            this.drawer = true;
+      this.drawer = true;
     });
-    }
+  },
 };
 </script>
