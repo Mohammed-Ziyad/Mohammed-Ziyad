@@ -13,12 +13,10 @@ import { fab } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 library.add(fas, fab);
 
-
 import "bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 // Emitter Config
-
 import mitt from "mitt";
 const Emitter = mitt();
 // vuetify
